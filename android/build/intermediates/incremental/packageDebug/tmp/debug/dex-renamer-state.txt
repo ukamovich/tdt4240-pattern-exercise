@@ -1,0 +1,4 @@
+#Sun Mar 20 18:20:02 CET 2022
+base.0=/Users/kamovich/gitlab/tdt4240/exercise2/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
