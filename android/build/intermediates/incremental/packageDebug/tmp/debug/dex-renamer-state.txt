@@ -1,4 +1,4 @@
-#Sun Mar 20 18:20:02 CET 2022
-base.0=/Users/kamovich/gitlab/tdt4240/exercise2/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Thu Mar 24 17:27:22 CET 2022
+base.0=/Users/kamovich/git/tdt4240-patterns-exercise/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

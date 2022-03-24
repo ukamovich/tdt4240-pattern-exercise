@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kamovich/gitlab/tdt4240/exercise2/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/kamovich/git/tdt4240-patterns-exercise/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/kamovich/gitlab/tdt4240/exercise2/android/res/values/strings.xml",
+                    "source": "/Users/kamovich/git/tdt4240-patterns-exercise/android/res/values/strings.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kamovich/gitlab/tdt4240/exercise2/android/res/values/color.xml",
+                    "source": "/Users/kamovich/git/tdt4240-patterns-exercise/android/res/values/color.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

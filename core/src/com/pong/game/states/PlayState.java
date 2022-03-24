@@ -90,14 +90,14 @@ public class PlayState extends State {
 
     public final void countRightScore() {
         this.scoreRight++;
-        if (this.scoreRight >= 2) {
+        if (this.scoreRight >= 11) {
             this.winnerStr = "Right player won. Tap anywhere to start over.";
         }
     }
 
     public final void countLeftScore() {
         this.scoreLeft++;
-        if (this.scoreLeft >= 2) {
+        if (this.scoreLeft >= 11) {
             this.winnerStr = "Left player won. Tap anywhere to start over.";
         }
     }
