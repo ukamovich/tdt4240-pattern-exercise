@@ -10,6 +10,9 @@ import com.pong.game.states.MenuState;
 
 public class PongGame extends Game {
 
+	// Static member holds only one instance of the PongGame class (Singleton class)
+	private static PongGame pg_instance = null;
+
 	// Desktop Application Vars
 	public static String APP_TITLE = "Pong GDX";
 	public static double APP_VERSION = 0.1;
@@ -20,6 +23,16 @@ public class PongGame extends Game {
 	private GameStateManager gsm;
 	private SpriteBatch batch;
 
+	// Private constructor that prevents the instantiation of the PongGame class from outside
+	public PongGame() {}
+
+	// Static method that provides users with instances
+	public static  PongGame getInstance() {
+		if (pg_instance == null) {
+			pg_instance = new PongGame();
+		}
+		return pg_instance;
+	}
 	
 	@Override
 	public void create () {

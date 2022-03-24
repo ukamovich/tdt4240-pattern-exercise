@@ -12,7 +12,7 @@ import com.pong.game.sprites.RightPaddle;
 
 
 
-public final class PlayState extends State {
+public class PlayState extends State {
 
     private final LeftPaddle leftPaddle;
     private final RightPaddle rightPaddle;
