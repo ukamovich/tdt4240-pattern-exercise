@@ -14,11 +14,11 @@ The PongGame class is instantiated in [DesktopLauncher](desktop/src/com/pong/gam
 
 # Step 3: Implementation of pattern(s) from the list
 Two patterns – Template and State (both are behavioural design patterns) – have been implemented in this game.
-– **Template Pattern:**
-    – Abstract class State, which defines operations with abstract template methods. Both PlayState and MenuState are classes that extend State and override its methods. 
-    – Abstract class Sprite, which defines three operations with abstract template methods (`getTexture()`, `getPosition()`, `getBounds()`). Both Ball and Paddle classes extend the Sprite class and override its methods.
-– **State Pattern:**
-    – GameStateManager keeps track of game states, i.e., where the user is in the game (either *menu state* or *play state*).
+**Template Pattern:**
+    * Abstract class State, which defines operations with abstract template methods. Both PlayState and MenuState are classes that extend State and override its methods. 
+    * Abstract class Sprite, which defines three operations with abstract template methods (`getTexture()`, `getPosition()`, `getBounds()`). Both Ball and Paddle classes extend the Sprite class and override its methods.
+**State Pattern:**
+    * GameStateManager keeps track of game states, i.e., where the user is in the game (either *menu state* or *play state*).
 
 # Step 4: Theory
 _a)_ 
